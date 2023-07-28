@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div style="height:500px; width:500px; background-color:burlywood">
+            {% if a > b and a > c %}
+                <h2>a is max {{a}}</h2>
+            {% elif b > c %}
+                <h2>b is max {{b}}</h2>
+            {% else %}
+                <h2>c is max {{c}}</h2>
+            {% endif %}
+        </div>
+    </center>
+</body>
+</html>
